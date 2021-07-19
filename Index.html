@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TITLE OF THE PAGE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- table -->
+        <div class="html_table">
+            <h2>Students Data</h2>
+            <table>
+                <tr><th>NAME</th><th>Email Id</th><th>Phone No.</th></tr>
+                <tr><td>Rajan Kumar</td><td>yeerajan@gmail.com</td><td>9570598045</td></tr>
+                <tr><td>Rakesh Kumar</td><td colspan="2">acoustic@gmail.com</td></tr>
+                <tr><td rowspan="2">Rakesh Kumar</td><td>acoustic@gmail.com</td><td>7294046271</td></tr>
+                <tr><td>acoustic@gmail.com</td><td>7294046271</td></tr>
+                <tr><td>Rakesh Kumar</td><td>acoustic@gmail.com</td><td>7294046271</td></tr>
+                <tr><td>Rakesh Kumar</td><td>acoustic@gmail.com</td><td>7294046271</td></tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <!-- Form -->
+        <div class="html_form">
+            <form onsubmit="return validation()" name="Submit-googlesheet" method="POST">
+                <h2>Please Fill The Form</h2>
+                <input type="text" id="name" name="Name" placeholder="Name"><br>
+                <span id="errorname" style="color: red;"></span>
+                <input type="email" id="email" name="Email ID" placeholder="Email"><br>
+                <span id="erroremail" style="color: red;"></span>
+                <input type="text" id="roll" name="Roll No." placeholder="Roll No."><br>
+                <span id="errorroll" style="color: red;"></span>
+                <input type="number" id="number" name="Contact No." placeholder="Contact No."><br>
+                <span id="errornumber" style="color: red;"></span>
+                <select name="Branch Name" required>
+                    <option>Your Branch</option>
+                    <option>CS</option>
+                    <option>ME</option>
+                    <option>MM</option>
+                    <option>CE/ID</option>
+                    <option>CR</option>
+                </select><br>
+                <select name="College Name" required>
+                    <option>Your College</option>
+                    <option>ABC</option>
+                    <option>BCD</option>
+                    <option>XYZ</option>
+                    <option>STU</option>
+                </select><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="scriptFormData.js"></script>
+    </body>
+</html>

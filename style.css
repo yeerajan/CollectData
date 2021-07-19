@@ -1,0 +1,90 @@
+.html_table{
+    background-image: linear-gradient(90deg,#4933FF,hsl(73, 100%, 60%));
+    color: black;
+    margin: 5px;
+    padding: 10px;
+}
+.html_table h2{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.html_table table{
+    margin: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.html_table table td,th{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}
+.html_form{
+    padding: 40px;
+    border: 2px solid turquoise;
+}
+.html_form form{
+    border: 2px solid brown;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px darkblue;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+}
+.html_form form h2{
+    font-size: 40px;
+    color: darkmagenta;
+    text-decoration: underline;
+}
+.html_form form input{
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    border: none;
+    border-left: 2px solid blue;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.html_form form input:focus{
+    outline: none;
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    box-shadow: 1px 1px 8px black;
+}
+.html_form form select{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-left: 2px solid blue;
+    border-radius: 5px;
+}
+.html_form form select:focus{
+    outline: none;
+    box-shadow: 1px 1px 8px black;
+}
+.html_form form button{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 1px 8px black;
+
+}
+.html_form form button:hover{
+    background-color: blue;
+    box-shadow: 3px 3px 10px blue;
+}
